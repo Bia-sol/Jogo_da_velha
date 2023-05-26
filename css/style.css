@@ -1,64 +1,29 @@
 body {
-    background-color: rgb(203, 203, 203);
+    background-color: rgb(246, 205, 250);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 main {
     text-align: center;
+   color: rgb(255, 255, 255);
+   text-shadow: 1px 1px 2px rgb(224, 172, 237), 0 0 25px rgb(214, 80, 254), 0 0 5px rgb(93, 0, 139);
+   
 }
 
 .tabuleiro div input {
     width: 100px;
     height: 100px;
-    margin: -2px;
+    margin: 5px;
+   border-radius: 10px;
     font-size: 30px;
     cursor: pointer;;
+    border: 2px solid rgb(231, 153, 255);
 }
-
+input[type=button]{
+    background-color: rgb(224, 172, 237);
+    color: rgb(255, 255, 255);
+}
+h1{
+   font-size: 40px; 
+}
 /* Bordas dos botões */
-.borda1 {
-    border: 10px solid black;
-    border-top: 0;
-    border-left: 0;
-}
-
-.borda2 {
-    border: 10px solid black;
-    border-top: 0;
-}
-
-.borda3 {
-    border: 10px solid black;
-    border-top: 0;
-    border-right: 0;
-}
-
-.borda4 {
-    border: 10px solid black;
-    border-left: 0;
-}
-
-.borda5 {
-    border: 10px solid black;
-}
-
-.borda6 {
-    border: 10px solid black;
-    border-right: 0;
-}
-
-.borda7 {
-    border: 10px solid black;
-    border-bottom: 0;
-    border-left: 0;
-}
-
-.borda8 {
-    border: 10px solid black;
-    border-bottom: 0;
-}
-
-.borda9 {
-    border: 10px solid black;
-    border-bottom: 0;
-    border-right: 0;
-}
