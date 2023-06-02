@@ -19,19 +19,11 @@ let finalJogo = false;
 let gon = "url('../assets/img/gon.jpg')"
 let killua = "url('../assets/img/killua.jpg')"
 
+sectionCapa.style.display = 'block'
+sectionTabuleiro.style.display = 'none'
 
 let jogador1 = gon
 let jogador2 = killua
-
-
-
-
-
-
-
-
-
-
 
 intro.addEventListener('click', iniciaPartida)
 
@@ -390,7 +382,13 @@ function clickReiniciar() {
     jogador1 = null
 
     //reiniciar tabuleiro
-    let sectionCapa = document.getElementById("capa")
-    
-    
+
+    sectionCapa.style.display = 'block'
+    sectionTabuleiro.style.display = 'none'
+
+}
+
+function start() {
+    sectionCapa.style.display = 'none'
+    sectionTabuleiro.style.display = 'block'
 }
