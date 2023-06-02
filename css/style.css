@@ -23,12 +23,12 @@ main {
     font-size: 30px;
     cursor: pointer;
     border: 2px solid hsl(285, 72%, 72%);
-    border-radius: 5px;
+    border-radius: 80px;
 }
 
 .teste[type=button] {
     border: 2px solid hsl(285, 72%, 72%);
-    border-radius: 5px;
+    border-radius: 80px;
     background-color: hsl(290, 80%, 77%);
     color: rgb(255, 255, 255);
 }
