@@ -18,12 +18,13 @@ main {
 
 .tabuleiro div input {
     width: 100px;
-    height: 100px;
+    height: 150px;
     margin: 5px;
     font-size: 30px;
     cursor: pointer;
-    border: 2px solid hsl(285, 72%, 72%);
-    border-radius: 80px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
 }
 
 .teste[type=button] {
@@ -37,4 +38,13 @@ input[type=button] {
     background-color: hsl(290, 80%, 77%);
     color: white;
     font-family: cursive;
+}
+
+.card{
+    width: 150px;
+    height: 300px;
+}
+
+.hxh {
+    margin-bottom: -340px;
 }

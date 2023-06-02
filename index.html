@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Velha</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
 </head>
 <body>
-    <main>
+    <main class="intro">
         <section>
             <h1>Jogo da Velha</h1>
         </section>
     <br></br>
+        <section id="capa">
+            <img src="./assets/img/card.png" alt="">
+        </section>
         <section class="tabuleiro">
             <div>
                 <input type="button" value=" " id="btn1" onclick="clickBtn1()">
@@ -21,9 +24,9 @@
                 <input type="button" value=" " id="btn3" onclick="clickBtn3()">
             </div>
             <div>
-                <input class="teste" type="button" value=" " id="btn4" onclick="clickBtn4()">
-                <input class="teste" type="button" value=" " id="btn5" onclick="clickBtn5()"> 
-                <input class="teste" type="button" value=" " id="btn6" onclick="clickBtn6()">
+                <input type="button" value=" " id="btn4" onclick="clickBtn4()">
+                <input type="button" value=" " id="btn5" onclick="clickBtn5()"> 
+                <input type="button" value=" " id="btn6" onclick="clickBtn6()">
             </div>
             <div>
                 <input type="button" value=" " id="btn7" onclick="clickBtn7()">
